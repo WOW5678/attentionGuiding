@@ -1,7 +1,6 @@
-# -*- coding:utf-8 -*-
-"""
-@Time: 2021/04/22 21:26
-@Author: Shanshan Wang
-@Version: Python 3.7
-@Function:
-"""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Time : 2021/9/14 21:23
+# @Author : sharonswang
+# @File : __init__.py
+# @Function:
