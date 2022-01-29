@@ -8,7 +8,7 @@
 import json
 import os
 
-project_dir = '/data/0shared/lidongdong/WSS/SIGIR2022-20220113/attentionRegularization'
+project_dir = '/data/0shared/*/*/*/attentionRegularization'
 def read_results(results):
     claim_dict = dict()
     for index, row in results.iterrows():
