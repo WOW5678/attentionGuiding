@@ -18,7 +18,7 @@ from transformers import AutoModel, AutoTokenizer
 from torch.utils.data import DataLoader
 
 import sys
-project_dir = '/data/0shared/lidongdong/WSS/SIGIR2022-20220113/attentionRegularization'
+project_dir = '/data/0shared/*/*/*/attentionRegularization'
 sys.path.append(project_dir)  # 将当前目录的上一级目录加载进来，即attentionRegularization
 from models import IR_pair_model
 from common import IR_pair_train_with_test
