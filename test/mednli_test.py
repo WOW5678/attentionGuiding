@@ -19,7 +19,7 @@ from torch.utils.data import DataLoader
 import os
 
 import sys
-project_dir = '/data/0shared/lidongdong/WSS/SIGIR2022-20220113/attentionRegularization'
+project_dir = '/data/0shared/*/attentionRegularization'
 sys.path.append(project_dir)
 import utils
 import mednli_dataset
