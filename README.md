@@ -7,3 +7,10 @@ by Shanshan Wang, Muyang Ma, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Ya
 >>  journal={arXiv preprint arXiv:2204.02922},\
 >>  year={2022}\
 >>}
+
+
+## Running experiments
+
+### Requirements
+This code is written in PyTorch. Any version later than 1.9 is expected to work with the provided code. Please refer to the [official website](https://pytorch.org/) for an installation guide.
+
