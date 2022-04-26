@@ -22,5 +22,7 @@ And then put the downloaded dataset in the `.data/` folder.
 + Run the following scripts for model training on different datasets:
 
 ```
-python ./train/multiNLI/multiNLI_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' ---pd_factor=0.001 --ad_factor=0.001
+python ./train/multiNLI/multiNLI_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
+python ./train/medNLI/medNLI_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
+python ./train/IR/IR_pair_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
 ```
