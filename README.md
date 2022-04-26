@@ -26,3 +26,10 @@ python ./train/multiNLI/multiNLI_main_train.py --model_name='bert-base-uncased' 
 python ./train/medNLI/medNLI_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
 python ./train/IR/IR_pair_main_train.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
 ```
+### Evaluating
++ Run the following scripts for model evaluation on different datasets:
+```
+python ./test/multiNLI_test.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
+python ./test/medNLI_test.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
+python ./test/IR_pair_test.py --model_name='bert-base-uncased' --loss_type='task+both' --pd_factor=0.001 --ad_factor=0.001
+```
