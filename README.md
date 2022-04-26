@@ -1,3 +1,3 @@
-# attentionGuiding
+# Paying More Attention to Self-attention: Improving Pre-trained Language Models via Attention Guiding
 
-These are the implementation scripts for the paper "Paying More Attention to Self-attention: Improving Pre-trained Language Models via Attention Guiding" which is submitted to “The IEEE Transactions on Knowledge and Data Engineering”.
+by Shanshan Wang, Muyang Ma, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Yan, Pengjie Ren
